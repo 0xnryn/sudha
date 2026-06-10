@@ -12,6 +12,7 @@
     home.packages = with pkgs; [
       zed-editor
       vlc
+      alfis
     ];
   };
 }

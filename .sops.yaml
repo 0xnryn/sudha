@@ -1,0 +1,10 @@
+keys:
+  - &sudha age1keca023xe9nya8yqfdx5ca32w57m8k8galwthuzndlvehngmt93suu330j
+groups:
+  - &admins [ *sudha ]
+
+creation_rules:
+  - path_regex: secrets/sudha.yaml$
+    key_groups:
+      - age:
+          - *admins
