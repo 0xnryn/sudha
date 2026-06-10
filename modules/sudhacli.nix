@@ -4,7 +4,7 @@
     inputs.cosmic.flakeModules.default
   ];
 
-  flake.homeModules.sudhacli = { pkgs, osConfig, ... }:{
+  flake.homeModules.sudhacli = { pkgs, ... }:{
     nixpkgs.config.allowUnfree = true;
     home.username = "sudha";
     home.homeDirectory = "/home/sudha";
