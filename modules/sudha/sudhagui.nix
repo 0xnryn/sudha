@@ -13,6 +13,8 @@
       zed-editor
       vlc
       alfis
+      kdePackages.arianna
+      libreoffice-fresh
     ];
   };
 }
