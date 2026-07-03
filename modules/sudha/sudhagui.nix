@@ -15,6 +15,7 @@
       alfis
       kdePackages.arianna
       libreoffice-fresh
+      discord
     ];
   };
 }
