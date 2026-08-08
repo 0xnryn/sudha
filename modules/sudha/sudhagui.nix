@@ -7,7 +7,6 @@
   flake.homeModules.sudhagui = { pkgs, inputs, ... }:{
 #     imports = with inputs.opinions.homeModules; [
 #       plasma
-#       helium-browser
 #     ];
     home.packages = with pkgs; [
       zed-editor
@@ -15,6 +14,7 @@
       kdePackages.arianna
       libreoffice-fresh
       discord
+      guymager
     ];
   };
 }
